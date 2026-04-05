@@ -1,7 +1,7 @@
 (function($) {
     "use strict";
     var PIN = {};
-    var plugin_track = 'assets/vendor/index.html';
+    var plugin_track = 'assets/vendor/';
     $.fn.exists = function() {
         return this.length > 0;
     };
