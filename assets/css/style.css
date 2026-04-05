@@ -36,7 +36,7 @@ Primary use:    pxdraft
   --px-mode:	#000;
   --px-mode-rgb:	0, 0, 0;
   --px-theme:	#40476e;
-  --px-theme-rgb:	249, 228, 0;
+  --px-theme-rgb:	64, 71, 110;
   --px-theme2:	#fafd5d;
   --px-theme3:	#c3b8fa;
   --px-theme4:	#14a959;
@@ -565,23 +565,23 @@ img {
 
 @keyframes mymove {
   0% {
-    background-color: rgba(2, 145, 228, 0.4);
+    background-color: rgba(var(--px-theme-rgb), 0.4);
     filter: blur(200px);
   }
   25% {
-    background-color: rgba(255, 232, 0, 0.4);
+    background-color: rgba(var(--px-theme-rgb), 0.2);
     filter: blur(150px);
   }
   50% {
-    background-color: rgba(2, 145, 228, 0.4);
+    background-color: rgba(var(--px-theme-rgb), 0.4);
     filter: blur(220px);
   }
   75% {
-    background-color: rgba(255, 232, 0, 0.4);
+    background-color: rgba(var(--px-theme-rgb), 0.2);
     filter: blur(180px);
   }
   100% {
-    background-color: rgba(2, 145, 228, 0.4);
+    background-color: rgba(var(--px-theme-rgb), 0.4);
     filter: blur(200px);
   }
 }
