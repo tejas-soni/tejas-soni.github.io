@@ -56,12 +56,27 @@ Primary use:    pxdraft
 }
 
 [data-bs-theme=dark] {
-  --px-body-bg:	#000;
-  --px-body-bg-rgb:	0, 0, 0;
-  --px-mode:	#fff;
-  --px-mode-rgb:	255, 255, 255;
-  --px-text:	#d5d5d5;
-  --px-heading:	#fff;
+  --px-body-bg:	#0f1117;
+  --px-body-bg-rgb:	15, 17, 23;
+  --px-mode:	#e4e6ed;
+  --px-mode-rgb:	228, 230, 237;
+  --px-theme:	#5a6399;
+  --px-theme-rgb:	90, 99, 153;
+  --px-theme2:	#e8eb5a;
+  --px-theme3:	#a99be0;
+  --px-theme4:	#1cc86e;
+  --px-theme5:	#6db8ef;
+  --px-white:	#fff;
+  --px-white-rgb:	255, 255, 255;
+  --px-black:	#0f1117;
+  --px-black-rgb:	15, 17, 23;
+  --px-dark:	#e4e6ed;
+  --px-text:	#b0b4c5;
+  --px-heading:	#e8eaf2;
+  --px-border:	#1e2133;
+  --px-gray:	#1a1d2e;
+  --px-backdrop-filter:	saturate(180%) blur(20px);
+  --px-gradient: linear-gradient(138deg, #161829 2.98%, #1a1d2e 28.84%, #1f1a28 67.18%, #151830 102.29%);
 }
 
 .logo-light {
